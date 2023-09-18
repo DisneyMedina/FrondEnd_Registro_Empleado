@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Actividad1RegistroEmpleado": {
+    "DAWII-Java17-Sesion02FrontEndInicio-SinMaterialDesign": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/actividad1-registro-empleado",
+            "outputPath": "dist/dawii-java17-sesion02-front-end-inicio-sin-material-design",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Actividad1RegistroEmpleado:build:production"
+              "browserTarget": "DAWII-Java17-Sesion02FrontEndInicio-SinMaterialDesign:build:production"
             },
             "development": {
-              "browserTarget": "Actividad1RegistroEmpleado:build:development"
+              "browserTarget": "DAWII-Java17-Sesion02FrontEndInicio-SinMaterialDesign:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Actividad1RegistroEmpleado:build"
+            "browserTarget": "DAWII-Java17-Sesion02FrontEndInicio-SinMaterialDesign:build"
           }
         },
         "test": {
@@ -94,5 +94,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
